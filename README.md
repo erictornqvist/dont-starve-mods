@@ -14,7 +14,7 @@ You can install the mods without git, but then you are on your own.
 Check if you have git by running
 
 ```
-git -- version
+git --version
 ```
 
 The output should look like
@@ -33,13 +33,13 @@ First move to your mod folder. Select your OS accordingly, then proceed.
 #### For MacOS
 
 ```
-cd ~/Library/Application Support/Steam/steamapps/common/Don\'t\ Starve/dont_starve.app/Contents/mods/
+cd ~/Library/Application\ Support/Steam/steamapps/common/Don\'t\ Starve/dont_starve.app/Contents/mods/
 ```
 
 #### For Linux
 
 ```
-cd cd ~/.steam/steam/steamapps/common/Don\'t\ Starve\ Together/mods
+cd ~/.steam/steam/steamapps/common/Don\'t\ Starve\ Together/mods
 ```
 
 After moving to your folder, proceed with downloading this repository
@@ -57,16 +57,15 @@ mv dont-starve-mods/* .
 Try it out by typing 
 
 ```
-ls custom-mod*
+ls homebrew* -ld
 ```
 
 Expected output should be something like
 
 ```
-custom-mod-<name of mod>
-custom-mod-<name of mod>
-custom-mod-<name of mod>
-custom-mod-<name of mod>
+drwxr-xr-x 2 xxx yyy 4096 apr  5 13:22 homebrew-1337
+drwxr-xr-x 2 xxx yyy 4096 apr  6 18:20 homebrew-1338
+
 ```
 
 
@@ -80,9 +79,10 @@ Congratulations, the mods should now be installed. You can try them out by start
 Written by the original starvation team, never surviving one night
 
 * **Eric "No, I won't die this time" T** - *Trashy coder* 
-* **Victoria "Do you want some poop" M H** - *Windows guru* 
+* **Victoria "Do you want some poop" P** - *Windows guru* 
 * **Viktor "I will smack them" M H** - *Creative mind* 
 * **Julia "Does anyone have some food" A** - *Unwilling test subject* 
+* **Emelie "I HATE BATS" A** - *Pre-alpha tester* 
 
 
 
