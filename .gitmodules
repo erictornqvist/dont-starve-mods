@@ -1,3 +1,6 @@
 [submodule "homebrew-1337"]
 	path = homebrew-1337
 	url = https://github.com/erictornqvist/homebrew-1337/
+[submodule "homebrew-1338"]
+	path = homebrew-1338
+	url = https://github.com/erictornqvist/homebrew-1338
