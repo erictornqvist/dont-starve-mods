@@ -1,4 +1,4 @@
-# Dont Starve mods
+# Don't Starve mods
 This repo contains home made mods for Don't Starve Together written in Lua.
 
 ## Getting Started
@@ -42,16 +42,28 @@ cd ~/Library/Application\ Support/Steam/steamapps/common/Don\'t\ Starve/dont_sta
 cd ~/.steam/steam/steamapps/common/Don\'t\ Starve\ Together/mods
 ```
 
-After moving to your folder, proceed with downloading this repository
+After moving to your folder, initialise it as a repository
 
 ```
-git clone https://github.com/erictornqvist/dont-starve-mods.git
+git init
 ```
 
-And the move the folders to the correct location
+Then set the remote repository
 
 ```
-mv dont-starve-mods/* .
+git remote add origin https://github.com/erictornqvist/dont-starve-mods.git
+```
+
+Then download the mod folders 
+
+```
+git pull origin master
+```
+
+And download the actual content
+
+```
+git submodule update --init --recursive
 ```
 
 Try it out by typing 
